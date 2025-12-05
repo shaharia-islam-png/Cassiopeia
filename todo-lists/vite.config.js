@@ -8,7 +8,7 @@ export default defineConfig({
       babel: {
         plugins: [['babel-plugin-react-compiler']],
       },
-         base: process.env.VITE_BASE_PATH || "/Cassiopeia",
+         base: process.env.VITE_BASE_PATH || "/TO-DO-Lists",
     }),
   ],
 })
